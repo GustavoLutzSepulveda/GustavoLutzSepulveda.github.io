@@ -26,12 +26,66 @@
     </item>
     
     <item>
-      <title>Encargo 1</title>
-      <link>https://gustavolutzsepulveda.github.io/docs/encargo_1/</link>
+      <title>0 - Fabricación Digital</title>
+      <link>https://gustavolutzsepulveda.github.io/docs/0/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://gustavolutzsepulveda.github.io/docs/encargo_1/</guid>
-      <description>Contenido de mi post 1.</description>
+      <guid>https://gustavolutzsepulveda.github.io/docs/0/</guid>
+      <description>Contenido de mi primer trabajo de Fabricación Digital.</description>
+    </item>
+    
+    <item>
+      <title>1 - Planimetrías</title>
+      <link>https://gustavolutzsepulveda.github.io/docs/1/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gustavolutzsepulveda.github.io/docs/1/</guid>
+      <description>Contenido de mi trabajo de planimetrias.</description>
+    </item>
+    
+    <item>
+      <title>2 - Mecanizado CNC</title>
+      <link>https://gustavolutzsepulveda.github.io/docs/2/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gustavolutzsepulveda.github.io/docs/2/</guid>
+      <description>Contenido de mi trabajo em Mecanizado CNC.</description>
+    </item>
+    
+    <item>
+      <title>3 - Mecanizado 2.5 Ejes</title>
+      <link>https://gustavolutzsepulveda.github.io/docs/3/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gustavolutzsepulveda.github.io/docs/3/</guid>
+      <description>Contenido de mi trabajo Mecanizado 2.5 Ejes.</description>
+    </item>
+    
+    <item>
+      <title>4 - Simulción</title>
+      <link>https://gustavolutzsepulveda.github.io/docs/4/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gustavolutzsepulveda.github.io/docs/4/</guid>
+      <description>Contenido de mi trabajo de Simulación.</description>
+    </item>
+    
+    <item>
+      <title>5 - Impresión 3D</title>
+      <link>https://gustavolutzsepulveda.github.io/docs/5/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gustavolutzsepulveda.github.io/docs/5/</guid>
+      <description>Contenido de mi trabajo en impresión 3D.</description>
+    </item>
+    
+    <item>
+      <title>6 - Complementarios</title>
+      <link>https://gustavolutzsepulveda.github.io/docs/6/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gustavolutzsepulveda.github.io/docs/6/</guid>
+      <description>Contenido de mi trabajo complementario.</description>
     </item>
     
   </channel>
