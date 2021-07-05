@@ -135,7 +135,95 @@
           
 <h1 class="title">2 - Mecanizado CNC</h1>
 <div class="content ">
-  
+  <h2 id="mecanizado-cnc-en-fusion-360">Mecanizado CNC en Fusion 360</h2>
+<h1 id="silla-fresia">Silla Fresia</h1>
+<p><img src="/img/silla1/planimetria_01.png" alt="Imagen Simple"></p>
+<p><img src="/img/silla1/planimetria_02.png" alt="Imagen Simple"></p>
+<h3 id="pasos-a-seguir">Pasos a seguir.</h3>
+<h4 id="paso-1">Paso 1</h4>
+<ol>
+<li>Buscamos definir el area de trabajo en una plancha de terciado.
+Seleccionamos el botón SKETCH con la vizualización en Top le damos click en la cara XY.</li>
+</ol>
+<p><img src="/img/silla1/1.PNG" alt="Imagen Simple"></p>
+<ol start="2">
+<li>Hacemos un rectangulo de dimensiones 1220 x 1220 mm cuyo vertice comience en el eje XY, esto seia el equivalente a media plancha de terciado.</li>
+</ol>
+<p><img src="/img/silla1/2.PNG" alt="Imagen Simple"></p>
+<ol start="3">
+<li>Realizamos un extrude de 15 mm en el rectangulo hacia el eje Z, que es un estandar de una plancha de terciado.</li>
+</ol>
+<p><img src="/img/silla1/3.PNG" alt="Imagen Simple"></p>
+<ol start="4">
+<li>Con la opción move/copy desplazamos  las piezas de la silla a la plancha ya realizada, esto se logra con el comando align para posiciona las partes sobre el plano XY siempre recordando poner el caldo hacia arriba en el eje Z por lo que la parte plana de las diferentes piezas de la silla quedan a plomo con la plancha.</li>
+</ol>
+<p><img src="/img/silla1/4.PNG" alt="Imagen Simple"></p>
+<p><a href="#top">[Volver Arriba]</a></p>
+<hr>
+<h4 id="paso-2">Paso 2</h4>
+<ol>
+<li>Pasamos a Manofactura donde podemos seleccionar las herraminetas qque utilizaremos para elaborar esta silla, en este caso se usa una Autodesk cnc de 3 ejes generica.</li>
+</ol>
+<p><img src="/img/silla1/5.PNG" alt="Imagen Simple"></p>
+<ol start="2">
+<li>Selccionamos el stock/From solid y clickeamos en la plancha creada,tambien debemos elegir las piezas que queremos cortar de esa plancha y por ultimo la orientacion de corte que seria en el eje Z y el plano de XY ademas del punto de origen de la maquina que seria el punto superior izquierdo de la plancha.</li>
+</ol>
+<p><img src="/img/silla1/6.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/silla1/6.1.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/silla1/6.2.PNG" alt="Imagen Simple"></p>
+<ol start="3">
+<li>Vamos a realizar un 2D contour donde seleccionamos las aristas de la base del socalo que queremos hacer y luego debemos seleccionar la fresa que es de 6 mm flat end mill de aluminiuo y al darle click en select nos mostrara el trayector que realizara la maquina para hacer el trabajo.</li>
+</ol>
+<p><img src="/img/silla1/7.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/silla1/7.1.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/silla1/7.2.PNG" alt="Imagen Simple"></p>
+<ol start="4">
+<li>Debido a que la fresa es de 6mm y la plancha de terciado es de 15 hay que editar su profundidad para poder realizar de buena manera el ejercicio, para esto debemos ir denuevo a editar contour 2D y en passes/Multiple Dephts cambiamos el Maximum Roughing a 3 mm, sto resultara en que la fresa pasara 5 veces por donde seleccionamos.</li>
+</ol>
+<blockquote>
+<p>&ldquo;El paso en el eje z debe ser el 50% de la fresa, es decir si la fresa es de 6 mm el recorrido que debe hacer la maquina es de 3 mm&rdquo; Profesor Pedro Garretón</p>
+</blockquote>
+<p><img src="/img/silla1/8.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/silla1/8.1.PNG" alt="Imagen Simple"></p>
+<ol start="5">
+<li>Luego usamo el comando 2D Pocket, para hacer el socado mas grande de la pieza que vendrian siendo el rectangulo de color azul y volvemos a repetir los comandos passes/Multiple Dephts para cambiamr el Maximum Roughing a 3 mm, lo que nos deja el trayecto por donde pasara la fresa para ahcer el pocket.</li>
+</ol>
+<p><img src="/img/silla1/9.1.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/silla1/9.2.PNG" alt="Imagen Simple"></p>
+<ol start="6">
+<li>Finalmente vamos a hacer un countor 2D para poder hacer todo el controno de al pieza y asi extraerla de la plancha, como lo hicimos anteriomente repetimos los comandos passes/Multiple Dephts para cambiamr el Maximum Roughing a 3mm, dejandonos el trayecto de la fresa. Debido a que la pieza quedara suelta al meomento de terminar este proceso debemos realizar un ajuste en el countor que consta de ir a  Geometry/Tabs que son pequeños cuadrados por donde la fresa no pasará para que la pieza completa no se rompa de imediato y sea más fácil trabajar.
+Tab width: 6mm/ Tab Height: 3mm/ Tab Distance: 350mm.</li>
+</ol>
+<p><img src="/img/silla1/10..PNG" alt="Imagen Simple"></p>
+<p><img src="/img/silla1/10.1.PNG" alt="Imagen Simple"></p>
+<ol start="7">
+<li>Hacemos una simulación de la pieza mecanizada para poder confirmar que funcione de buena manera.</li>
+</ol>
+<p><img src="/img/silla1/11..PNG" alt="Imagen Simple"></p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/video1.mp4"  type="video/mp4">
+    </video>
+</div>
+<h2 id="volver-arribatop"><a href="#top">[Volver Arriba]</a></h2>
+<h4 id="paso-3">Paso 3</h4>
+<ol>
+<li>Se realiza todas las piezas de la silla de la misma manera y se calzan en la planca ya mencionada.</li>
+</ol>
+<p><img src="/img/silla1/12.1.PNG" alt="Imagen Simple"></p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/video2.mp4"  type="video/mp4">
+    </video>
+</div>
+<p><a href="#top">[Volver Arriba]</a></p>
+
 </div>
 </div>
 
