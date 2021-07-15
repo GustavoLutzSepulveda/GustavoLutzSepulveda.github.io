@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>4 - Simulción - Gustavo Lutz Sepúlveda - Taller Fabricación 2021</title>
+  <title>4 - Diseño generativo &amp; Simulación - Gustavo Lutz Sepúlveda - Taller Fabricación 2021</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://gustavolutzsepulveda.github.io/favicon.png">
@@ -115,7 +115,7 @@
     </li>
     
     <li class="active ">
-      <a href="https://gustavolutzsepulveda.github.io/docs/4/">4 - Simulción</a>
+      <a href="https://gustavolutzsepulveda.github.io/docs/4/">4 - Diseño generativo &amp; Simulación</a>
     </li>
     
     <li class="">
@@ -133,9 +133,162 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">4 - Simulción</h1>
+<h1 class="title">4 - Diseño generativo &amp; Simulación</h1>
 <div class="content ">
-  
+  <h1 id="diseño-generativo">Diseño Generativo</h1>
+<p>El diseño generativo es una Herramienta de innovación, una nueva forma de abordar la manera en que se construye y se crea el mundo a nuestro alrededor. Es una herramienta que ha venido tomando mucha fuerza en campos como la ingeniería, el arte, la arquitectura y el Diseño. Es un proceso de búsqueda de formas que puede imitar el enfoque evolutivo de la naturaleza para el diseño. Puede comenzar con objetivos de diseño y luego explorar innumerables posibles permutaciones de una solución para encontrar la mejor opción.</p>
+<h3 id="bracket">Bracket</h3>
+<div>
+    <iframe 
+    src='https://alumnos4775.autodesk360.com/shares/public/SH56a43QTfd62c1cd968455ea8c3e926a3fc?mode=embe'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+ 
+<a class="face-button" href="/descargas/Bracketv1.f3d" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
+<hr>
+<h3 id="pasos-a-seguir-para-desarrolllar-el-ejercicio">Pasos a seguir para desarrolllar el ejercicio</h3>
+<h4 id="paso-1">Paso 1</h4>
+<ol>
+<li>Despues de descargar y agregar el modelo a Fusion 360 en su ordenador pasamos a la ventana de Diseño Generativo, luego nos vamos al botón estudio para crear un estudio estructural nuevo.</li>
+</ol>
+<p><img src="/img/DG/1.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/2.PNG" alt="Imagen Simple"></p>
+<ol start="2">
+<li>El siguiente paso en señalar cuales son las geomertrias que debemos perservar, para esto seleccionamos los 6 cuerpos que se vne en azul en la imágen siguiente, si se esta conforme con la seleccion se acepta y las piezas cambiaran a color verde.</li>
+</ol>
+<p><img src="/img/DG/3.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/4.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/5.PNG" alt="Imagen Simple"></p>
+<ol start="3">
+<li>Para continuar,  seleccionamos las geometrias de obstaculo que son lugares donde no puede haber material, para esto sleccionamos 2 cuerpos que estan en azul y posteriomente al dar aceptar cmabiarian a color rojo. Por lo que si ahora apagamos la Geometría de obstáculo deberian aparecer solo los cuerpos verdes.</li>
+</ol>
+<p><img src="/img/DG/6.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/7.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/8.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/9.PNG" alt="Imagen Simple"></p>
+<ol start="4">
+<li>Ahora en el apartado de Condiciones de diseño que esta de color amarrillo, y para esto seleccionamos las bases conde iran los pernos y la estructura se convertita en un cuerpo fijo por eso parecen candados.</li>
+</ol>
+<p><img src="/img/DG/10.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/11.PNG" alt="Imagen Simple"></p>
+<ol start="5">
+<li>Continuamos con las cargas estructurales que es como le decimos al software sobre cual es el lugar que recibe la fuerza del diseño. Es por eso que elegimos los 2 cuerpos que corrresponde a los ejes de los rodamientos, luego hay que cambiar la cantida de fuerza que debera resistir esa pieza, en este caso corresponde al eje Z y son 1000 Newton que se asimila a decir que la pieza debera soportar 100Kg en ese eje.Como aparecen flechas hacia arriba debemos cambiar los 1000 N por -1000 N y asi rotamos las flechas que ejemplifica de hacia donde se ejercera la fuerza.</li>
+</ol>
+<p><img src="/img/DG/13.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/14.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/15.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/16.PNG" alt="Imagen Simple"></p>
+<ol start="6">
+<li>Ahora pasamos a las normas de diseño, que sirve para entregarle objetivos a la pieza, nos entrega 2 opciones minizar la masa que sirve en la industria aeronautica o maximizar rigidez que sirve para piezas mas resistentes como de mineria o construcción, demas agregamos un coeficioente de seguridad de 2, que significa que si la pieza puede someterse hasta un maximo de 200Kg o 2000 N por lo calculado y seleccionado en el paso 5(En general el coeficiente ronda en entre 1-2).</li>
+</ol>
+<p><img src="/img/DG/17.PNG" alt="Imagen Simple"></p>
+<ol start="7">
+<li>Continuamos al Criterio de manofactura, que como dice la palabara es la tecnica para manofacturar esta pieza y dentro de los factores a considerar es el volimen de piezas, la orienatcion que es si necesita soportes para ser imprimir las piezas y por ultimo el grosor de cad una que son os siguientes.</li>
+</ol>
+<p><img src="/img/DG/18.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/19.PNG" alt="Imagen Simple"></p>
+<ol start="8">
+<li>Ahora nos vamso ala apartado de materiales, quee s donde seleccionamso el material a utilizar en al producción de la pieza. Seleccionamos Titanio, Aluminio, Acero y un plastico GFRP.</li>
+</ol>
+<p><img src="/img/DG/20.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/21.PNG" alt="Imagen Simple"></p>
+<ol start="9">
+<li>Pasamos a la revisión previa para poder y ver si existe algun problema, si salen estos signos  de advertencia amarrillos no hay problema, debido que es uan complicación con los costos de los materiales.</li>
+</ol>
+<p><img src="/img/DG/22.PNG" alt="Imagen Simple"></p>
+<ol start="10">
+<li>En este paso nos vamos al apartado Generar previsualización, donde se generarn iteración de como esta pieza puede ser optemizada. Si bien este avance no es muy atractivo, no es definiiva.</li>
+</ol>
+<p><img src="/img/DG/23.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/24.PNG" alt="Imagen Simple"></p>
+<ol start="11">
+<li>En el siguiente paso aapretamos Generar, y como habiamos dicho anteriormmnete sale la advertencia ya que no puede genera r los costos de producción, damos aceptar y el software mandara todo el estudio al servidor de diseño de Autodesk. Debido a esto este proceso puee tardar algunas horas, asi que hay qeu esperar pero el computador sigue operativo debido a qeu todos los proceso se realizan en la nube. Se apreta Finalizar estado y nos regresa a donde staba nuestro modelo para seguir trabajando, si se quier volver a ver el esatdo del estudio se apreta en visualizador de estado que se en cuentra la lado del botón generar.</li>
+</ol>
+<p><img src="/img/DG/25.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/26.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/27.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/28.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/29.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/DG/30.PNG" alt="Imagen Simple"></p>
+<p>El resultado de la espera del proceso seria el siguiente.</p>
+<p><a href="#top">[Volver Arriba]</a></p>
+<hr>
+<h1 id="simulación">Simulación</h1>
+<p>Para esta simulación se utilizara el siguiente modelo de una ala y nuevamnete esatremos usando Diseño Generativo  de Fusion 360.</p>
+<h3 id="wing-completa">Wing completa</h3>
+<div>
+    <iframe 
+    src='https://alumnos4775.autodesk360.com/shares/public/SH56a43QTfd62c1cd968819aab13eaf47540?mode=embed'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+ 
+<a class="face-button" href="/descargas/Ala_completa.f3d" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
+<p>Como es difícil buscar una forma de mejorar las partes exteriores de las alas, decidimos enfocarnos en la pieza que se repite más veces ya que sería la que otorgue mayor beneficios al modificar.</p>
+<h3 id="pieza-seleccionada">Pieza seleccionada</h3>
+<div>
+    <iframe 
+    src='https://alumnos4775.autodesk360.com/shares/public/SH56a43QTfd62c1cd968d735838bb3da84d3?mode=embed'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+ 
+<a class="face-button" href="/descargas/Ala_sola.f3d" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
+<hr>
+<h3 id="pasos-a-seguir-para-desarrolllar-el-ejercicio-ala">Pasos a seguir para desarrolllar el ejercicio ala</h3>
+<h4 id="paso-1-1">Paso 1</h4>
+<ol>
+<li>Una vez que descargamos nuestra pieza aislada para asi entender su comportamiento, pasamos al modulo de Simulación en Fusion 360. Para esto abriremos un nuevo estudio y seleccionaremos Tensión estatica.</li>
+</ol>
+<p><img src="/img/simu/1.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/simu/2.PNG" alt="Imagen Simple"></p>
+
 </div>
 </div>
 
