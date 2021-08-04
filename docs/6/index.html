@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>6 - Complementarios - Gustavo Lutz Sepúlveda - Taller Fabricación 2021</title>
+  <title>6 - Mecanizado de Moldes - Gustavo Lutz Sepúlveda - Taller Fabricación 2021</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://gustavolutzsepulveda.github.io/favicon.png">
@@ -123,7 +123,11 @@
     </li>
     
     <li class="active ">
-      <a href="https://gustavolutzsepulveda.github.io/docs/6/">6 - Complementarios</a>
+      <a href="https://gustavolutzsepulveda.github.io/docs/6/">6 - Mecanizado de Moldes</a>
+    </li>
+    
+    <li class="">
+      <a href="https://gustavolutzsepulveda.github.io/docs/7/">7 - Modelado de superficies en 3D</a>
     </li>
     
   </ul>
@@ -133,9 +137,217 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">6 - Complementarios</h1>
+<h1 class="title">6 - Mecanizado de Moldes</h1>
 <div class="content ">
+  <h2 id="que-es-el-mecanizado-de-moldes">¿Que es el mecanizado de Moldes?</h2>
+<p>Es una técnica de fabricación. El modelado permite fabricar directamente un único ejemplar de títere. Se utilizan materiales como pasta de papel, polvo de celulosa miscible en agua o una resina de plástico maleable que se endurece posteriormente (resina epoxi). El mismo proceso de fabricación permite realizar la matriz para el moldeado.</p>
+<p>Se utiliza un material maleable como arcilla, pasta para modelar (de diferentes consistencias), cera o una resina epoxi de la que se debe conocer la duración de la maleabilidad antes de la polimerización. El soporte necesario para este trabajo es una simple plancha, un banco de trabajo o una plataforma giratoria, que hay que colocar sobre una mesa. Con el fin de modelar el barro, la plastilina o la resina epoxi, se utilizan palillos, vaciadores y espátulas. Hay que cubrir la arcilla con trapos húmedos para evitar que se seque o se encoja cuando no la estamos modelando. En lo que se refiere a la cera, se utilizan, además de los utensilios habituales, pirograbadores especiales que se emplean también en el pirograbado o en la soldadura de estaño con cabezales de diferentes formas. El moldeado es la operación que consiste en realizar un molde de yeso, de látex, de gelatina acuosa, de elastómero, de arena de fundición, etc. a partir de una matriz y permite hacer una o varias piezas. La naturaleza del molde depende del material que se vaya a utilizar como material de relleno.</p>
+<h2 id="modelado-del-molde">Modelado del molde</h2>
+<h3 id="huellas">Huellas</h3>
+<p><img src="/img/hue1.png" alt="Imagen Simple"></p>
+<hr>
+<h2 id="pasos">Pasos</h2>
+<h3 id="paso-1">Paso 1</h3>
+<p>Para comenzar con la elaboración de los moldes de las huellas, debemso habir el programa Fusion 360 y pondremos un boceto en el plano frontal,luego con la opcion linea realizaremos un eje de simetria y lo proyectamos que sera una linea de referencia para el trabajo, el formato de linea es de construccion como se aprecia en la siguiente imagen.</p>
+<p><img src="/img/mo/1.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/mo/2.PNG" alt="Imagen Simple"></p>
+<h3 id="paso-2">Paso 2</h3>
+<p>Continuamos utilizando la opcion linea y hacemos el boceto de la mitad del molde, como esta es una ejempleficación de lo que estamos haciendo no es nesesario poner enfasis en las medidas, ya que queremos llegar a una forma en contreto y terminamos el boceto.</p>
+<p><img src="/img/mo/3.PNG" alt="Imagen Simple"></p>
+<h3 id="paso-3">Paso 3</h3>
+<p>Para este paso utilizaremos el comando recolve sobre la figura que recien diagramamos donde le cuerpo es el modelo que hicimos y el eje es la linea de simetria que habiamos hecho en el paso numero 1,</p>
+<p><img src="/img/mo/4.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/mo/5.PNG" alt="Imagen Simple"></p>
+<h3 id="paso-4">Paso 4</h3>
+<p>con el bloque listo vamos a utilizar el fillet/ empalme para tener unos bordes más curvos en la pieza ya modelada, para esto se seleccionas las circunferencias que queremos rebajar. Hasta este paso ya tenemos el objeto que queremos realizar y acontinuación lo utilizaremos para hacer nuestros moldes.</p>
+<p><img src="/img/mo/6.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/mo/7.PNG" alt="Imagen Simple"></p>
+<h3 id="paso-5">Paso 5</h3>
+<p>Pasamos a hacer otro boceto donde escojemos la cara inferior de la pieza, para continuar apagamos el cuerpo de la pieza para poder observar mejor el area de trabajo. Crramos un rectangulo desde el centro que sea de tamaño proporcional con la pieza, para finalizar lo extruimos y ponemos la opacidad del cuerpo en 30% para poder observar la pieza en su interior.</p>
+<p><img src="/img/mo/8.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/mo/9.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/mo/10.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/mo/11.PNG" alt="Imagen Simple"></p>
+<h3 id="paso-6">Paso 6</h3>
+<p>Pasamos a utilizar la funcion combinar, donde hay que considerar que el target body es el cubo y el tool body es la pieza y debe estar en la funcion cut para poder fuincionar y keep tool para no borrar la pieza.</p>
+<p><img src="/img/mo/12.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/mo/13.PNG" alt="Imagen Simple"></p>
+<p><img src="/img/mo/14.PNG" alt="Imagen Simple"></p>
+<h3 id="paso-7">Paso 7</h3>
+<p>Luego vamos a inspeccionar la pieza con analisis de sección para poder observar como se realizaria la pieza y ver sus curvas.
+Consejo lo mejor e sgenerar un angulo de desmolde de la pieza por lo que las lineas rectas son nuestro peor enemigo.</p>
+<p><img src="/img/mo/15.PNG" alt="Imagen Simple"></p>
+<hr>
+<h2 id="galeria-de-las-huellas">Galeria de las huellas</h2>
+<p>
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gustavolutzsepulveda.github.io//img/hu//1.png');" >
+				      <img itemprop="thumbnail" src="https://gustavolutzsepulveda.github.io//img/hu//1.png" alt="1st" />
+				    </div>
+			      <figcaption>
+		          <p>1st</p>
+			      </figcaption>
+				    <a href="https://gustavolutzsepulveda.github.io//img/hu//1.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gustavolutzsepulveda.github.io//img/hu//2.png');" >
+				      <img itemprop="thumbnail" src="https://gustavolutzsepulveda.github.io//img/hu//2.png" alt="2nd" />
+				    </div>
+			      <figcaption>
+		          <p>2nd</p>
+			      </figcaption>
+				    <a href="https://gustavolutzsepulveda.github.io//img/hu//2.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gustavolutzsepulveda.github.io//img/hu//3.png');" >
+				      <img itemprop="thumbnail" src="https://gustavolutzsepulveda.github.io//img/hu//3.png" alt="3rd" />
+				    </div>
+			      <figcaption>
+		          <p>3rd</p>
+			      </figcaption>
+				    <a href="https://gustavolutzsepulveda.github.io//img/hu//3.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gustavolutzsepulveda.github.io//img/hu//4.png');" >
+				      <img itemprop="thumbnail" src="https://gustavolutzsepulveda.github.io//img/hu//4.png" alt="4th" />
+				    </div>
+			      <figcaption>
+		          <p>4th</p>
+			      </figcaption>
+				    <a href="https://gustavolutzsepulveda.github.io//img/hu//4.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gustavolutzsepulveda.github.io//img/hu//5.png');" >
+				      <img itemprop="thumbnail" src="https://gustavolutzsepulveda.github.io//img/hu//5.png" alt="5th" />
+				    </div>
+			      <figcaption>
+		          <p>5th</p>
+			      </figcaption>
+				    <a href="https://gustavolutzsepulveda.github.io//img/hu//5.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gustavolutzsepulveda.github.io//img/hu//6.png');" >
+				      <img itemprop="thumbnail" src="https://gustavolutzsepulveda.github.io//img/hu//6.png" alt="6th" />
+				    </div>
+			      <figcaption>
+		          <p>6th</p>
+			      </figcaption>
+				    <a href="https://gustavolutzsepulveda.github.io//img/hu//6.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gustavolutzsepulveda.github.io//img/hu//7.png');" >
+				      <img itemprop="thumbnail" src="https://gustavolutzsepulveda.github.io//img/hu//7.png" alt="7th" />
+				    </div>
+			      <figcaption>
+		          <p>7th</p>
+			      </figcaption>
+				    <a href="https://gustavolutzsepulveda.github.io//img/hu//7.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gustavolutzsepulveda.github.io//img/hu//8.png');" >
+				      <img itemprop="thumbnail" src="https://gustavolutzsepulveda.github.io//img/hu//8.png" alt="8th" />
+				    </div>
+			      <figcaption>
+		          <p>8th</p>
+			      </figcaption>
+				    <a href="https://gustavolutzsepulveda.github.io//img/hu//8.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gustavolutzsepulveda.github.io//img/hu//9.png');" >
+				      <img itemprop="thumbnail" src="https://gustavolutzsepulveda.github.io//img/hu//9.png" alt="9th" />
+				    </div>
+			      <figcaption>
+		          <p>9th</p>
+			      </figcaption>
+				    <a href="https://gustavolutzsepulveda.github.io//img/hu//9.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+ 
+
+
+
   
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</p>
+<hr>
+<h2 id="link-de-referencias">Link de referencias</h2>
+<p><a href="https://materia3d.cl/M3DOnline/2019/01/28/post-1/">https://materia3d.cl/M3DOnline/2019/01/28/post-1/</a></p>
+
 </div>
 </div>
 

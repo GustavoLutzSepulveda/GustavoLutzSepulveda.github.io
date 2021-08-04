@@ -80,11 +80,20 @@
     </item>
     
     <item>
-      <title>6 - Complementarios</title>
+      <title>6 - Mecanizado de Moldes</title>
       <link>https://gustavolutzsepulveda.github.io/docs/6/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://gustavolutzsepulveda.github.io/docs/6/</guid>
+      <description>Contenido de mi trabajo complementario.</description>
+    </item>
+    
+    <item>
+      <title>7 - Modelado de superficies en 3D</title>
+      <link>https://gustavolutzsepulveda.github.io/docs/7/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gustavolutzsepulveda.github.io/docs/7/</guid>
       <description>Contenido de mi trabajo complementario.</description>
     </item>
     
