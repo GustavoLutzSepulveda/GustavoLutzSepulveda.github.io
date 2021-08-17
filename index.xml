@@ -62,15 +62,6 @@
     </item>
     
     <item>
-      <title>Fabricación Digital</title>
-      <link>https://gustavolutzsepulveda.github.io/docs/0_fabricaci%C3%B3n_digital/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://gustavolutzsepulveda.github.io/docs/0_fabricaci%C3%B3n_digital/</guid>
-      <description>Contenido de mi post 1.</description>
-    </item>
-    
-    <item>
       <title>4 - Diseño generativo &amp; Simulación</title>
       <link>https://gustavolutzsepulveda.github.io/docs/4/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
@@ -113,6 +104,15 @@
       
       <guid>https://gustavolutzsepulveda.github.io/docs/8/</guid>
       <description>Contenido de mi trabajo complementario.</description>
+    </item>
+    
+    <item>
+      <title>9 - Proceso Examen Preliminar</title>
+      <link>https://gustavolutzsepulveda.github.io/docs/9/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gustavolutzsepulveda.github.io/docs/9/</guid>
+      <description>Contenido de mi experimentación.</description>
     </item>
     
   </channel>
